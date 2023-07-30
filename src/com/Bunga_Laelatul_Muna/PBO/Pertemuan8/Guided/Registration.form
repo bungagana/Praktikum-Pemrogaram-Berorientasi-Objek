@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.Bunga_Laelatul_Muna.PBO.Pertemuan8.Guided.Registration">
+  <grid id="27dc6" binding="mainPanel" layout-manager="GridLayoutManager" row-count="13" column-count="5" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="559" height="414"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="b824e" class="javax.swing.JLabel" binding="namaLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Nama Lengkap"/>
+        </properties>
+      </component>
+      <component id="1f52c" class="javax.swing.JTextField" binding="namaField">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="ebedd" class="javax.swing.JPasswordField" binding="passwordField">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="89d72" class="javax.swing.JLabel" binding="passwordLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <alignmentX value="0.8"/>
+          <text value="Password"/>
+        </properties>
+      </component>
+      <component id="91797" class="javax.swing.JLabel" binding="jenisKelaminLabel">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <alignmentX value="0.8"/>
+          <text value="Jenis Kelamin"/>
+        </properties>
+      </component>
+      <component id="7e8af" class="javax.swing.JCheckBox" binding="perempuanCheckBox" default-binding="true">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Perempuan"/>
+        </properties>
+      </component>
+      <component id="1f323" class="javax.swing.JCheckBox" binding="lakiLakiCheckBox" default-binding="true">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Laki-Laki"/>
+        </properties>
+      </component>
+      <component id="46844" class="javax.swing.JLabel" binding="ttlLabel">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <alignmentX value="0.8"/>
+          <text value="TTL"/>
+        </properties>
+      </component>
+      <component id="bc00" class="javax.swing.JLabel" binding="jabatanLabel">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <alignmentX value="0.8"/>
+          <text value="Jabatan"/>
+        </properties>
+      </component>
+      <component id="6a410" class="javax.swing.JComboBox" binding="comboBox">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <model>
+            <item value="Dosen"/>
+            <item value="Karyawan"/>
+            <item value="Mahasiswa"/>
+          </model>
+        </properties>
+      </component>
+      <component id="587c7" class="javax.swing.JLabel" binding="bahasaLabel">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <alignmentX value="0.8"/>
+          <text value="Bahasa"/>
+        </properties>
+      </component>
+      <component id="81ae1" class="javax.swing.JCheckBox" default-binding="true">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Inggris"/>
+        </properties>
+      </component>
+      <component id="6ecad" class="javax.swing.JCheckBox" default-binding="true">
+        <constraints>
+          <grid row="8" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Arab"/>
+        </properties>
+      </component>
+      <component id="16172" class="javax.swing.JCheckBox" binding="indonesiaCheckBox" default-binding="true">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Indonesia"/>
+        </properties>
+      </component>
+      <component id="fcc3b" class="javax.swing.JCheckBox" binding="lainnyaCheckBox" default-binding="true">
+        <constraints>
+          <grid row="9" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Lainnya"/>
+        </properties>
+      </component>
+      <component id="d7c9a" class="javax.swing.JLabel" binding="alamatLengkapLabel">
+        <constraints>
+          <grid row="10" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Alamat Lengkap"/>
+        </properties>
+      </component>
+      <component id="d6929" class="javax.swing.JTextArea" binding="alamatfield">
+        <constraints>
+          <grid row="10" column="1" row-span="1" col-span="2" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="39e52" class="javax.swing.JLabel" binding="skillLabel">
+        <constraints>
+          <grid row="11" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Skill"/>
+        </properties>
+      </component>
+      <component id="fdf27" class="javax.swing.JSlider" binding="Skillslider">
+        <constraints>
+          <grid row="11" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="9500e" class="javax.swing.JTextField" binding="ttlfield">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="b3186" class="javax.swing.JSpinner" binding="ttlSpinner">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="37608" class="javax.swing.JComboBox" binding="ttlCombo">
+        <constraints>
+          <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <model>
+            <item value="Januari"/>
+            <item value="Februari"/>
+            <item value="Maret"/>
+            <item value="April"/>
+            <item value="Mei"/>
+            <item value="Juni"/>
+            <item value="Juli"/>
+            <item value="AGustus"/>
+            <item value="September"/>
+            <item value="Oktober"/>
+            <item value="November"/>
+          </model>
+        </properties>
+      </component>
+      <component id="b1ae1" class="javax.swing.JButton" binding="submitButton">
+        <constraints>
+          <grid row="12" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Button"/>
+        </properties>
+      </component>
+      <component id="7cfee" class="javax.swing.JSpinner">
+        <constraints>
+          <grid row="4" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+      </component>
+    </children>
+  </grid>
+  <buttonGroups>
+    <group name="jeniskelamincheck">
+      <member id="7e8af"/>
+      <member id="1f323"/>
+    </group>
+    <group name="bahasacheck">
+      <member id="81ae1"/>
+      <member id="6ecad"/>
+      <member id="16172"/>
+      <member id="fcc3b"/>
+    </group>
+  </buttonGroups>
+</form>
